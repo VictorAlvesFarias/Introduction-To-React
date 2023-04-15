@@ -1,0 +1,63 @@
+@import url("../../index.css");
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 300px;
+    font-size: 80%;
+    color: var( --color_text);
+    font-weight: 100;
+    margin-bottom: 100px;
+    max-width: 1500px;
+
+}
+
+.features_background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: var(--gradient_background_2);
+}
+
+.features_container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 30px 0;
+}
+
+.features_title {
+    display: flex;
+    justify-content: space-between;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin: 50px 0px 50px 0px;
+    font-size: 150%;
+}
+
+.features_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+@media screen and (max-width:700px) {
+    .features_content {
+        flex-direction: column;
+    }
+
+    .features_title {
+        font-size: 100%;
+    }
+
+}
+
+
+
+
+

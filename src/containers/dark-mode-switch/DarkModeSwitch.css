@@ -1,0 +1,78 @@
+@import url("../../index.css");
+
+.dark_mode_switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 100px;
+    color: white;
+    max-width: 1500px;
+}
+
+.dark_mode_switch_gd_background {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    border-radius:5px;
+    background: var(--gradient);
+}
+
+.dark_mode_switch_conatainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.dark_mode_switch_title {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dark_mode_switch_button {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var( --color_text);
+    border:none;
+    border-radius: 40px;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.dark_mode_switch_button div {
+    display: flex;
+    position: relative;
+    background-color: white;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    transition: 1s;
+    left: 5%;
+    transition: 0.6s;
+}
+
+
+@media screen and (max-width:700px) {
+    .dark_mode_switch_conatainer {
+        height: 90%;
+    }
+    
+    .dark_mode_switch_conatainer_context {
+        flex-direction: column;
+    }
+    
+    .dark_mode_switch_conatainer_context button {
+        margin-bottom: 30px;
+    }
+    
+}
+

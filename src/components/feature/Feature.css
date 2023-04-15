@@ -1,0 +1,16 @@
+@import url("../../index.css");
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    color: white;    
+}
+
+.feature_gd_bar {
+    width: 38px;
+    height: 3px;
+    border-radius: 3px;
+    background:var(--gradient);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}

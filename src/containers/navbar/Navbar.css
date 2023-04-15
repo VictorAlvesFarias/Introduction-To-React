@@ -1,0 +1,25 @@
+@import url("../../index.css");
+
+.react_proj_navbar_style img {
+    width: 28px;
+    height: 28px;
+}
+
+.react_proj_navbar_style p {
+    font-size: 20px;
+}
+
+
+.react_proj_navbar_style {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    color:var(--baby_blue);
+    position: fixed;
+    top: 15px;
+    transition: 0.6s;
+}
+
+.react_proj_navbar_style_scrolling {
+    top: 5px;
+}

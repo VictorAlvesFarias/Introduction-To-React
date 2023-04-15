@@ -1,0 +1,25 @@
+@import url("../../index.css");
+
+.brand {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: 1500px;
+
+}
+
+.brand * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(77, 77, 77);
+    flex-direction: row;
+    font-weight: 500;
+      
+}
+
+.brand img {
+    height: 30px;
+}

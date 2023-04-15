@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Introduction-To-React/static/css/main.eb59d310.css",
+    "main.js": "/Introduction-To-React/static/js/main.607aaf83.js",
+    "static/media/notbook_ilustration.png": "/Introduction-To-React/static/media/notbook_ilustration.ec837d6c0e4eec0e9da5.png",
+    "static/media/lamp.png": "/Introduction-To-React/static/media/lamp.62232ada07fb64b79b63.png",
+    "static/media/verify.png": "/Introduction-To-React/static/media/verify.b3672b57e07a8ca34ff8.png",
+    "static/media/star.png": "/Introduction-To-React/static/media/star.77f63e4797384bff527a.png",
+    "static/media/react_logo.png": "/Introduction-To-React/static/media/react_logo.c2861c4dff64d52adf93.png",
+    "static/media/verify-full.png": "/Introduction-To-React/static/media/verify-full.fffea57ae032141c0dbb.png",
+    "static/media/react_logo_grey.jpg": "/Introduction-To-React/static/media/react_logo_grey.5595ab6dc6aeb295bb69.jpg",
+    "static/media/star-full.png": "/Introduction-To-React/static/media/star-full.1732a9ff6e472070ef3a.png",
+    "static/media/junk.png": "/Introduction-To-React/static/media/junk.6ae235ac3fac419fe7e6.png",
+    "index.html": "/Introduction-To-React/index.html",
+    "main.eb59d310.css.map": "/Introduction-To-React/static/css/main.eb59d310.css.map",
+    "main.607aaf83.js.map": "/Introduction-To-React/static/js/main.607aaf83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb59d310.css",
+    "static/js/main.607aaf83.js"
+  ]
+}
